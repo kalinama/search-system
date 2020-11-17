@@ -1,0 +1,1304 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="insert_ignored_words" author="Margarita Ageenko">
+        <insert tableName="ignored_words">
+            <column name="content" value="a"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="AFAIK"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="AFAIR"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="and"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="b"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="c"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="e"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="eek"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="f"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ftp"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="g"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="grin"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="h"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="http"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="i"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="imho"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="j"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="k"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="l"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="m"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="mrgreen"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="not"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="o"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="oops"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="or"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="p"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="q"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="r"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="razz"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="roll"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="s"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="smile"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="twisted"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="u"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="v"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="w"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="web"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="wink"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="www"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="x"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="y"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="z"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="а"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="б"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="будет"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="будит"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="буедт"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="бфть"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="бы"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="был"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="была"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="были"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="было"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="быть"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="в"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="вам"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="вас"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="весь"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="во"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="вот"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="все"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="всего"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="всех"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="вы"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="г"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="д"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="да"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="для"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="дни"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="днями"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="до"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="дык"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="дял"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="е"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ё"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="евсь"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="его"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ее"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ей"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="если"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="есть"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="еще"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ж"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="же"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="з"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="за"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="и"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ибо"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="из"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="или"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="им"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="имхо"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="их"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="й"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="к"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="как"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="какже"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ко"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="когда"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="коотрый"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="которая"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="которйо"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="которой"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="который"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="которых"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="кто"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="л"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="м"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="мегалол"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="меня"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="мля"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="мне"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="мной"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="могли"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="могу"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="могут"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="может"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="мочь"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="мы"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="н"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="на"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="нах"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="наш"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="не"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="него"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="нее"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="нет"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="них"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="но"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="о"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="об"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="омчь"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="он"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="она"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="они"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="оно"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="от"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ответ"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="п"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="по"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="при"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="р"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="с"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="свйо"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="свое"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="свой"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="своя"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="себя"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="собой"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="т"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="тагда"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="так"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="такйо"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="такой"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="те"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="тебя"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="тем"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="то"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="тобой"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="тогда"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="того"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="той"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="только"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="том"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="тоьлко"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ты"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="у"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="уже"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="упс"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ф"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="х"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="хороше"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ц"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ч"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="чего"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="чем"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="что"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="чтобы"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ш"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="шта"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="щ"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ъ"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ы"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ыбть"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ь"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="э"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="эта"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="эти"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="это"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="этот"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ю"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="я"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="about"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="after"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ago"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="all"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="almost"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="along"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="alot"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="also"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="am"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="an"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="answer"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="any"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="anybody"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="anybodys"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="anywhere"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="are"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="arent"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="around"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="as"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ask"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="askd"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="at"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="bad"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="be"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="because"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="been"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="before"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="being"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="best"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="better"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="between"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="big"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="btw"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="but"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="by"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="can"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="cant"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="come"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="could"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="couldnt"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="day"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="days"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="did"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="didnt"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="do"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="does"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="doesnt"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="dont"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="down"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="each"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="either"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="else"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="etc"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="even"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ever"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="every"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="everybody"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="everybodys"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="everyone"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="far"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="find"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="for"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="found"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="from"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="get"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="go"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="going"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="gone"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="good"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="got"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="gotten"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="had"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="has"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="have"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="havent"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="having"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="her"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="here"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="hers"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="him"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="his"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="home"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="how"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="hows"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="href"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="I"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="if"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="IIRC"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="in"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ini"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="into"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="is"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="isnt"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="it"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="its"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="Ive"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="just"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="know"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="large"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="less"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="like"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="liked"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="little"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="LOL"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="look"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="looked"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="looking"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="lot"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="many"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="maybe"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="me"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="more"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="most"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="much"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="must"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="mustnt"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="my"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="near"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="need"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="never"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="new"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="news"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="no"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="none"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="nothing"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="now"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="of"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="off"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="often"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="old"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="on"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="once"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="only"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="other"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="our"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ours"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="out"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="over"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="page"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="please"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="put"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="question"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="questioned"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="questions"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="quote"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="rather"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="really"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="recent"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ROTF"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="ROTFLMAO"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="said"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="saw"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="say"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="says"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="see"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="sees"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="she"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="should"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="sites"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="small"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="so"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="some"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="something"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="sometime"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="somewhere"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="soon"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="take"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="than"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="thank"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="that"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="thatd"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="thats"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="the"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="their"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="theirs"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="them"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="then"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="there"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="theres"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="these"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="they"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="theyd"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="theyll"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="theyre"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="this"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="those"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="though"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="through"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="thus"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="time"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="times"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="to"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="too"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="true"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="under"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="until"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="untrue"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="up"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="upon"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="use"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="users"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="version"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="very"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="via"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="want"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="was"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="way"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="we"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="well"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="went"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="were"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="werent"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="what"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="when"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="where"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="which"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="who"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="whom"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="whose"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="why"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="wide"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="will"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="with"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="within"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="without"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="wont"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="world"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="worse"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="worst"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="would"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="wrote"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="yes"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="yet"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="YMMV"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="you"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="youd"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="youll"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="your"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="youre"/>
+        </insert>
+        <insert tableName="ignored_words">
+            <column name="content" value="yours"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
